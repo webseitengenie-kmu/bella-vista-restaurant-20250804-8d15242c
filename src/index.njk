@@ -1,0 +1,169 @@
+---
+layout: base.njk
+---
+
+<!-- HERO HEADER (SEO-Content) -->
+<section id="hero" class="relative bg-gradient-to-br from-primary to-secondary overflow-hidden py-20 px-4 sm:px-8 flex flex-col items-center justify-center text-center min-h-[70vh]">
+  <div class="relative z-10">
+    <h1 class="font-primary text-4xl sm:text-6xl lg:text-7xl font-black text-white leading-tight mb-4 drop-shadow-xl" data-editable="hero-headline" data-type="text">Italienische Genussmomente im Bella Vista</h1>
+    <h2 class="font-secondary text-xl sm:text-2xl md:text-3xl text-white/90 font-light leading-relaxed mb-8 max-w-2xl mx-auto" data-editable="hero-subheadline" data-type="text">Erleben Sie authentische italienische Küche mit Familientradition, regionalen Zutaten und echter Gastfreundschaft – mitten in München.</h2>
+    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+      <a href="#contact" class="inline-block bg-primary hover:bg-secondary text-white text-lg font-bold py-4 px-8 rounded-lg shadow-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all focus:outline-none focus:ring-2 focus:ring-accent" data-editable="hero-cta-primary" data-type="text" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'});return false;">Jetzt Tisch reservieren</a>
+      <a href="#services" class="inline-block bg-white text-primary border-2 border-primary hover:bg-primary hover:text-white text-lg font-semibold py-4 px-8 rounded-lg shadow-md hover:shadow-xl transform hover:-translate-y-1 transition-all focus:outline-none focus:ring-2 focus:ring-primary" data-editable="hero-cta-secondary" data-type="text" onclick="document.getElementById('services').scrollIntoView({behavior:'smooth'});return false;">Speisekarte entdecken</a>
+    </div>
+  </div>
+  <div aria-hidden="true" class="absolute -top-32 -left-32 w-72 h-72 bg-[conic-gradient(at_top_left,_var(--tw-gradient-stops))] from-primary/40 via-accent/10 to-secondary/30 rounded-full blur-3xl opacity-30"></div>
+  <div aria-hidden="true" class="absolute -bottom-24 -right-24 w-96 h-96 bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-secondary/30 via-neutral/60 to-accent/10 rounded-full blur-3xl opacity-20"></div>
+</section>
+
+<!-- SECTION 1: hero (Hochprioritär) -->
+<section id="hero" class="relative bg-white py-16 px-4 sm:px-12 max-w-5xl mx-auto rounded-xl shadow-xl mt-8 mb-12 flex flex-col items-center text-center overflow-hidden">
+  <div class="absolute -top-8 -right-8 w-32 h-32 bg-[url('data:image/svg+xml,%3Csvg width=\'100\' height=\'100\' fill=\'none\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Ccircle cx=\'50\' cy=\'50\' r=\'40\' fill=\'%23007bff0d\'/%3E%3C/svg%3E')] bg-no-repeat bg-contain opacity-30 pointer-events-none"></div>
+  <h2 class="font-primary text-3xl sm:text-4xl font-bold text-primary leading-tight mb-2" data-editable="hero-headline2" data-type="text">Echte italienische Küche wie bei Nonna</h2>
+  <h3 class="font-secondary text-xl sm:text-2xl text-accent font-light leading-relaxed mb-6" data-editable="hero-subheadline2" data-type="text">Drei Generationen Familientradition treffen auf frischeste regionale Zutaten – für unvergessliche Geschmackserlebnisse im Herzen Münchens</h3>
+  <ul class="mb-6">
+    <li class="mb-2">
+      <h4 class="font-semibold text-lg text-accent" data-editable="hero-item1-headline" data-type="text">Tisch reservieren</h4>
+      <p class="text-base text-text" data-editable="hero-item1-description" data-type="text">Sichern Sie sich Ihren Platz in unserem gemütlichen Restaurant und erleben Sie authentische italienische Gastfreundschaft</p>
+    </li>
+  </ul>
+  <a href="#contact" class="bg-primary hover:bg-secondary text-white font-bold py-3 px-8 rounded-full shadow-lg hover:shadow-xl transition-all text-lg focus:outline-none focus:ring-2 focus:ring-accent mt-2" data-editable="hero-cta" data-type="text" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'});return false;">Tisch reservieren</a>
+</section>
+
+<!-- SECTION 2: services (Hochprioritär) -->
+<section id="services" class="relative bg-neutral py-20 px-4 sm:px-8 max-w-6xl mx-auto rounded-xl shadow-lg mb-12 overflow-hidden">
+  <div class="absolute top-0 left-0 w-24 h-24 bg-[url('data:image/svg+xml,%3Csvg width=\'100\' height=\'100\' fill=\'none\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Crect width=\'100\' height=\'100\' fill=\'%236c757d0d\'/%3E%3C/svg%3E')] bg-repeat opacity-20 pointer-events-none"></div>
+  <h2 class="font-primary text-3xl sm:text-4xl font-bold text-secondary leading-tight mb-2" data-editable="services-headline" data-type="text">Echte italienische Genussmomente</h2>
+  <h3 class="font-secondary text-xl sm:text-2xl text-accent font-light leading-relaxed mb-8" data-editable="services-subheadline" data-type="text">Von romantischen Dinner-Erlebnissen bis zu unvergesslichen Events - entdecken Sie die Vielfalt authentischer italienischer Gastfreundschaft</h3>
+  <ul class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
+    <li class="bg-white rounded-lg shadow p-6 flex flex-col items-start">
+      <h4 class="font-semibold text-lg mb-2 text-primary" data-editable="services-item1-headline" data-type="text">Dinner</h4>
+      <p class="text-base text-accent" data-editable="services-item1-description" data-type="text">Genießen Sie abends authentische italienische Küche aus drei Generationen Familientradition. Frische regionale Zutaten treffen auf überlieferte Rezepte - für unvergessliche Geschmackserlebnisse in gemütlicher Atmosphäre.</p>
+    </li>
+    <li class="bg-white rounded-lg shadow p-6 flex flex-col items-start">
+      <h4 class="font-semibold text-lg mb-2 text-primary" data-editable="services-item2-headline" data-type="text">Mittagstisch</h4>
+      <p class="text-base text-accent" data-editable="services-item2-description" data-type="text">Schnell, frisch und authentisch - unser Mittagstisch bietet täglich wechselnde italienische Spezialitäten. Keine langen Wartezeiten, dafür garantiert beste Qualität mit frischen regionalen Zutaten.</p>
+    </li>
+    <li class="bg-white rounded-lg shadow p-6 flex flex-col items-start">
+      <h4 class="font-semibold text-lg mb-2 text-primary" data-editable="services-item3-headline" data-type="text">Catering</h4>
+      <p class="text-base text-accent" data-editable="services-item3-description" data-type="text">Bringen Sie echte italienische Küche zu Ihrem Event. Mit 25 Jahren Erfahrung und traditionellen Familienrezepten sorgen wir für authentische Geschmackserlebnisse bei Ihren besonderen Anlässen.</p>
+    </li>
+    <li class="bg-white rounded-lg shadow p-6 flex flex-col items-start">
+      <h4 class="font-semibold text-lg mb-2 text-primary" data-editable="services-item4-headline" data-type="text">Private Events</h4>
+      <p class="text-base text-accent" data-editable="services-item4-description" data-type="text">Feiern Sie in persönlicher Atmosphäre, wo sich jeder Gast wie Familie fühlt. Von Geburtstagen bis Firmenevents - wir schaffen unvergessliche Momente mit authentischer italienischer Gastfreundschaft.</p>
+    </li>
+    <li class="bg-white rounded-lg shadow p-6 flex flex-col items-start">
+      <h4 class="font-semibold text-lg mb-2 text-primary" data-editable="services-item5-headline" data-type="text">Weinverkostungen</h4>
+      <p class="text-base text-accent" data-editable="services-item5-description" data-type="text">Entdecken Sie erlesene italienische Weine in entspannter Runde. Unser Küchenchef Giuseppe führt Sie durch ausgewählte Tropfen und teilt sein Wissen über die perfekte Kombination mit unseren Gerichten.</p>
+    </li>
+  </ul>
+  <a href="#contact" class="bg-gradient-to-r from-primary to-secondary text-white font-bold py-3 px-10 rounded-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-transform text-lg focus:outline-none focus:ring-2 focus:ring-accent" data-editable="services-cta" data-type="text" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'});return false;">Jetzt reservieren</a>
+</section>
+
+<!-- SECTION 3: about (Hochprioritär) -->
+<section id="about" class="relative bg-gradient-to-br from-secondary/80 via-white to-accent/20 py-20 px-4 sm:px-12 max-w-4xl mx-auto rounded-2xl shadow-lg mb-12 flex flex-col items-center text-center overflow-hidden">
+  <div class="absolute bottom-0 left-0 w-56 h-56 bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-primary/10 via-accent/10 to-white/0 rounded-full blur-2xl opacity-30 pointer-events-none"></div>
+  <h2 class="font-primary text-3xl sm:text-4xl font-bold text-accent leading-tight mb-2" data-editable="about-headline" data-type="text">Drei Generationen italienische Leidenschaft</h2>
+  <h3 class="font-secondary text-xl sm:text-2xl text-secondary font-light leading-relaxed mb-6" data-editable="about-subheadline" data-type="text">Seit über 20 Jahren bringen wir Ihnen echte italienische Küche nach München – mit Familienrezepten, die von Nonna stammen</h3>
+  <p class="text-base sm:text-lg text-text font-medium mb-8 max-w-2xl mx-auto" data-editable="about-description" data-type="text">Was 1999 als Traum von Giuseppe Rossi begann, ist heute Münchens authentischster Italiener. Mit den Familienrezepten seiner Nonna und über 25 Jahren Kocherfahrung erschafft unser Küchenchef täglich unvergessliche Geschmackserlebnisse. Jedes Gericht erzählt die Geschichte unserer drei Generationen umfassenden Familientradition – von der sonnigen Amalfiküste direkt auf Ihren Teller. Unsere frischen, regionalen Zutaten treffen auf jahrhundertealte italienische Kochkunst und schaffen eine Atmosphäre, in der sich jeder Gast wie Familie fühlt. Bei uns sprechen wir Deutsch, Italienisch und Englisch – denn gutes Essen verbindet alle Kulturen.</p>
+  <a href="#contact" class="bg-primary hover:bg-secondary text-white font-bold py-3 px-8 rounded-full shadow-lg hover:shadow-xl transition-all text-lg focus:outline-none focus:ring-2 focus:ring-primary" data-editable="about-cta" data-type="text" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'});return false;">Jetzt reservieren</a>
+</section>
+
+<!-- SECTION 4: team (Normalprioritär) -->
+<section id="team" class="relative bg-white py-16 px-4 sm:px-8 max-w-5xl mx-auto rounded-xl shadow-lg mb-12 overflow-hidden">
+  <div class="absolute right-0 top-1/2 w-28 h-28 bg-[url('data:image/svg+xml,%3Csvg width=\'80\' height=\'80\' fill=\'none\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Ccircle cx=\'40\' cy=\'40\' r=\'32\' fill=\'%236c757d0f\'/%3E%3C/svg%3E')] bg-no-repeat opacity-20 pointer-events-none"></div>
+  <h2 class="font-primary text-2xl sm:text-3xl font-semibold text-primary leading-tight mb-2" data-editable="team-headline" data-type="text">Die Seele unserer italienischen Küche</h2>
+  <h3 class="font-secondary text-lg sm:text-xl text-accent font-light leading-relaxed mb-8" data-editable="team-subheadline" data-type="text">Lernen Sie die Menschen kennen, die mit Leidenschaft und Familientradition jeden Tag für Ihr perfektes Geschmackserlebnis sorgen</h3>
+  <ul class="grid sm:grid-cols-2 gap-8 mb-8">
+    <li class="bg-gradient-to-br from-neutral via-white to-accent/10 rounded-2xl p-6 shadow flex flex-col items-start">
+      <h4 class="font-semibold text-lg mb-2 text-secondary" data-editable="team-item1-headline" data-type="text">Giuseppe Rossi</h4>
+      <p class="text-base text-text" data-editable="team-item1-description" data-type="text">Küchenchef & Inhaber mit 25 Jahren Erfahrung bringt authentische italienische Familienrezepte und frischeste Zutaten direkt aus der Heimat auf Ihren Teller.</p>
+    </li>
+    <li class="bg-gradient-to-br from-neutral via-white to-accent/10 rounded-2xl p-6 shadow flex flex-col items-start">
+      <h4 class="font-semibold text-lg mb-2 text-secondary" data-editable="team-item2-headline" data-type="text">Maria Rossi</h4>
+      <p class="text-base text-text" data-editable="team-item2-description" data-type="text">Service Manager sorgt für perfekten Service und gemütliche Atmosphäre. Mit fließenden Sprachkenntnissen in Deutsch, Italienisch und Englisch betreut sie jeden Gast persönlich.</p>
+    </li>
+  </ul>
+  <a href="#about" class="bg-accent text-white font-bold py-3 px-8 rounded-lg shadow hover:shadow-xl transition-all text-lg focus:outline-none focus:ring-2 focus:ring-primary" data-editable="team-cta" data-type="text" onclick="document.getElementById('about').scrollIntoView({behavior:'smooth'});return false;">Team kennenlernen</a>
+</section>
+
+<!-- SECTION 5: trust (Normalprioritär) -->
+<section id="trust" class="relative bg-gradient-to-r from-primary/10 via-neutral/80 to-secondary/10 py-16 px-4 sm:px-12 max-w-4xl mx-auto rounded-xl shadow-lg mb-12 flex flex-col items-center text-center overflow-hidden">
+  <div class="absolute left-0 top-0 w-40 h-24 bg-[url('data:image/svg+xml,%3Csvg width=\'120\' height=\'40\' fill=\'none\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Crect width=\'120\' height=\'40\' fill=\'%23007bff0c\'/%3E%3C/svg%3E')] bg-no-repeat opacity-20 pointer-events-none"></div>
+  <h2 class="font-primary text-2xl sm:text-3xl font-semibold text-secondary leading-tight mb-2" data-editable="trust-headline" data-type="text">Tradition seit drei Generationen</h2>
+  <h3 class="font-secondary text-lg sm:text-xl text-primary font-light leading-relaxed mb-8" data-editable="trust-subheadline" data-type="text">Über zwei Jahrzehnte authentische italienische Küche in München – mit der Erfahrung und Leidenschaft einer echten italienischen Familie.</h3>
+  <ul class="flex flex-col sm:flex-row justify-center gap-8 mb-8">
+    <li class="bg-white rounded-xl p-6 shadow flex flex-col items-center min-w-[140px]">
+      <h4 class="font-black text-4xl text-primary mb-2" data-editable="trust-item1-headline" data-type="text">21</h4>
+      <p class="text-base text-accent text-center" data-editable="trust-item1-description" data-type="text">Jahre Bella Vista Restaurant in München seit 2004</p>
+    </li>
+    <li class="bg-white rounded-xl p-6 shadow flex flex-col items-center min-w-[140px]">
+      <h4 class="font-black text-4xl text-primary mb-2" data-editable="trust-item2-headline" data-type="text">25</h4>
+      <p class="text-base text-accent text-center" data-editable="trust-item2-description" data-type="text">Jahre Erfahrung unseres Küchenchefs Giuseppe Rossi in der authentischen italienischen Küche</p>
+    </li>
+  </ul>
+  <a href="#contact" class="bg-secondary text-white font-bold py-3 px-10 rounded-lg shadow-lg hover:shadow-2xl hover:scale-105 transition-transform text-lg focus:outline-none focus:ring-2 focus:ring-primary" data-editable="trust-cta" data-type="text" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'});return false;">Jetzt reservieren</a>
+</section>
+
+<!-- SECTION 6: contact (Normalprioritär) -->
+<section id="contact" class="relative bg-white py-20 px-4 sm:px-8 max-w-6xl mx-auto rounded-2xl shadow-2xl mb-8 overflow-hidden">
+  <div class="absolute -bottom-12 right-0 w-56 h-56 bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-primary/10 via-accent/10 to-white/0 rounded-full blur-2xl opacity-20 pointer-events-none"></div>
+  <h2 class="font-primary text-2xl sm:text-3xl font-bold text-accent leading-tight mb-2" data-editable="contact-headline" data-type="text">Ihr Tisch wartet auf Sie</h2>
+  <h3 class="font-secondary text-lg sm:text-xl text-primary font-light leading-relaxed mb-6" data-editable="contact-subheadline" data-type="text">Reservieren Sie jetzt Ihren Platz für authentische italienische Momente bei Familie Rossi</h3>
+  <ul class="grid sm:grid-cols-2 gap-8 mb-10">
+    <li class="bg-gradient-to-br from-neutral via-white to-secondary/10 rounded-xl p-6 shadow flex flex-col items-start">
+      <h4 class="font-semibold text-base text-primary mb-1" data-editable="contact-item1-headline" data-type="text">Reservierung & Kontakt</h4>
+      <p class="text-sm text-text" data-editable="contact-item1-description" data-type="text">Kontaktformular mit Feldern für Name, E-Mail, Telefon (optional), Nachricht, Reservierungsdatum und Personenanzahl für eine schnelle und unkomplizierte Tischreservierung</p>
+    </li>
+    <li class="bg-gradient-to-br from-neutral via-white to-secondary/10 rounded-xl p-6 shadow flex flex-col items-start">
+      <h4 class="font-semibold text-base text-primary mb-1" data-editable="contact-item2-headline" data-type="text">Pizzaplatz 5, 80331 München</h4>
+      <p class="text-sm text-text" data-editable="contact-item2-description" data-type="text">Mitten im Herzen Münchens gelegen - leicht erreichbar mit öffentlichen Verkehrsmitteln und ausreichend Parkmöglichkeiten in der Nähe</p>
+    </li>
+    <li class="bg-gradient-to-br from-neutral via-white to-secondary/10 rounded-xl p-6 shadow flex flex-col items-start">
+      <h4 class="font-semibold text-base text-primary mb-1" data-editable="contact-item3-headline" data-type="text">+49 89 87654321</h4>
+      <p class="text-sm text-text" data-editable="contact-item3-description" data-type="text">Rufen Sie uns direkt an für spontane Reservierungen oder besondere Wünsche. Wir sind gerne für Sie da und beraten Sie persönlich</p>
+    </li>
+    <li class="bg-gradient-to-br from-neutral via-white to-secondary/10 rounded-xl p-6 shadow flex flex-col items-start">
+      <h4 class="font-semibold text-base text-primary mb-1" data-editable="contact-item4-headline" data-type="text">info@bellavista-restaurant.de</h4>
+      <p class="text-sm text-text" data-editable="contact-item4-description" data-type="text">Schreiben Sie uns eine E-Mail für Anfragen, Reservierungen oder Feedback. Wir antworten garantiert innerhalb von 24 Stunden</p>
+    </li>
+    <li class="bg-gradient-to-br from-neutral via-white to-secondary/10 rounded-xl p-6 shadow flex flex-col items-start">
+      <h4 class="font-semibold text-base text-primary mb-1" data-editable="contact-item5-headline" data-type="text">Folgen Sie uns</h4>
+      <p class="text-sm text-text" data-editable="contact-item5-description" data-type="text">Bleiben Sie auf Facebook und Instagram über unsere täglichen Spezialitäten informiert oder kontaktieren Sie uns direkt über WhatsApp</p>
+    </li>
+    <li class="bg-gradient-to-br from-neutral via-white to-secondary/10 rounded-xl p-6 shadow flex flex-col items-start">
+      <h4 class="font-semibold text-base text-primary mb-1" data-editable="contact-item6-headline" data-type="text">Unser Standort</h4>
+      <p class="text-sm text-text" data-editable="contact-item6-description" data-type="text">Interaktive Karte mit unserem Restaurant-Standort am Pizzaplatz 5 für eine einfache Anfahrt zu Ihrem italienischen Genusserlebnis</p>
+    </li>
+  </ul>
+  <form class="contact-form max-w-2xl mx-auto bg-neutral rounded-xl p-8 shadow flex flex-col gap-6" action="#" method="POST" autocomplete="off" aria-label="Kontaktformular">
+    <div class="form-group flex flex-col gap-1">
+      <label for="name" class="font-semibold text-accent" data-editable="contact-form-label-name" data-type="text">Name *</label>
+      <input type="text" id="name" name="name" required class="border border-accent/30 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-primary text-base" autocomplete="name">
+    </div>
+    <div class="form-group flex flex-col gap-1">
+      <label for="email" class="font-semibold text-accent" data-editable="contact-form-label-email" data-type="text">E-Mail *</label>
+      <input type="email" id="email" name="email" required class="border border-accent/30 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-primary text-base" autocomplete="email">
+    </div>
+    <div class="form-group flex flex-col gap-1">
+      <label for="phone" class="font-semibold text-accent" data-editable="contact-form-label-phone" data-type="text">Telefon</label>
+      <input type="tel" id="phone" name="phone" class="border border-accent/30 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-primary text-base" autocomplete="tel">
+    </div>
+    <div class="form-group flex flex-col gap-1">
+      <label for="message" class="font-semibold text-accent" data-editable="contact-form-label-message" data-type="text">Nachricht *</label>
+      <textarea id="message" name="message" rows="5" required class="border border-accent/30 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-primary text-base"></textarea>
+    </div>
+    <div class="form-group flex flex-col gap-1">
+      <label for="date" class="font-semibold text-accent" data-editable="contact-form-label-date" data-type="text">Reservierungsdatum</label>
+      <input type="date" id="date" name="date" class="border border-accent/30 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-primary text-base">
+    </div>
+    <div class="form-group flex flex-col gap-1">
+      <label for="persons" class="font-semibold text-accent" data-editable="contact-form-label-persons" data-type="text">Personenanzahl</label>
+      <input type="number" id="persons" name="persons" min="1" max="30" class="border border-accent/30 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-primary text-base">
+    </div>
+    <div class="form-group" style="display: none;">
+      <input type="text" name="honey" tabindex="-1" autocomplete="off">
+    </div>
+    <button type="submit" class="submit-button bg-primary hover:bg-secondary text-white font-bold py-3 px-8 rounded-full shadow-lg hover:shadow-xl transition-all text-lg focus:outline-none focus:ring-2 focus:ring-accent" data-editable="contact-form-submit" data-type="text">Nachricht senden</button>
+  </form>
+</section>

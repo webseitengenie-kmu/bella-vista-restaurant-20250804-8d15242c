@@ -1,0 +1,196 @@
+[
+  {
+    "sectionId": "hero",
+    "type": "hero",
+    "headline": "Echte italienische Küche wie bei Nonna",
+    "subheadline": "Drei Generationen Familientradition treffen auf frischeste regionale Zutaten – für unvergessliche Geschmackserlebnisse im Herzen Münchens",
+    "content": {
+      "items": [
+        {
+          "title": "Tisch reservieren",
+          "description": "Sichern Sie sich Ihren Platz in unserem gemütlichen Restaurant und erleben Sie authentische italienische Gastfreundschaft",
+          "icon": "🍝"
+        }
+      ],
+      "paragraphs": []
+    },
+    "cta": {
+      "text": "Tisch reservieren",
+      "action": "book-now"
+    }
+  },
+  {
+    "sectionId": "services",
+    "type": "services",
+    "headline": "Echte italienische Genussmomente",
+    "subheadline": "Von romantischen Dinner-Erlebnissen bis zu unvergesslichen Events - entdecken Sie die Vielfalt authentischer italienischer Gastfreundschaft",
+    "content": {
+      "items": [
+        {
+          "title": "Dinner",
+          "description": "Genießen Sie abends authentische italienische Küche aus drei Generationen Familientradition. Frische regionale Zutaten treffen auf überlieferte Rezepte - für unvergessliche Geschmackserlebnisse in gemütlicher Atmosphäre.",
+          "icon": "dinner"
+        },
+        {
+          "title": "Mittagstisch",
+          "description": "Schnell, frisch und authentisch - unser Mittagstisch bietet täglich wechselnde italienische Spezialitäten. Keine langen Wartezeiten, dafür garantiert beste Qualität mit frischen regionalen Zutaten.",
+          "icon": "lunch"
+        },
+        {
+          "title": "Catering",
+          "description": "Bringen Sie echte italienische Küche zu Ihrem Event. Mit 25 Jahren Erfahrung und traditionellen Familienrezepten sorgen wir für authentische Geschmackserlebnisse bei Ihren besonderen Anlässen.",
+          "icon": "catering"
+        },
+        {
+          "title": "Private Events",
+          "description": "Feiern Sie in persönlicher Atmosphäre, wo sich jeder Gast wie Familie fühlt. Von Geburtstagen bis Firmenevents - wir schaffen unvergessliche Momente mit authentischer italienischer Gastfreundschaft.",
+          "icon": "events"
+        },
+        {
+          "title": "Weinverkostungen",
+          "description": "Entdecken Sie erlesene italienische Weine in entspannter Runde. Unser Küchenchef Giuseppe führt Sie durch ausgewählte Tropfen und teilt sein Wissen über die perfekte Kombination mit unseren Gerichten.",
+          "icon": "wine"
+        }
+      ]
+    },
+    "cta": {
+      "text": "Jetzt reservieren",
+      "action": "book-now"
+    }
+  },
+  {
+    "sectionId": "about",
+    "type": "about",
+    "headline": "Drei Generationen italienische Leidenschaft",
+    "subheadline": "Seit über 20 Jahren bringen wir Ihnen echte italienische Küche nach München – mit Familienrezepten, die von Nonna stammen",
+    "content": {
+      "paragraphs": [
+        "Was 1999 als Traum von Giuseppe Rossi begann, ist heute Münchens authentischster Italiener. Mit den Familienrezepten seiner Nonna und über 25 Jahren Kocherfahrung erschafft unser Küchenchef täglich unvergessliche Geschmackserlebnisse. Jedes Gericht erzählt die Geschichte unserer drei Generationen umfassenden Familientradition – von der sonnigen Amalfiküste direkt auf Ihren Teller. Unsere frischen, regionalen Zutaten treffen auf jahrhundertealte italienische Kochkunst und schaffen eine Atmosphäre, in der sich jeder Gast wie Familie fühlt. Bei uns sprechen wir Deutsch, Italienisch und Englisch – denn gutes Essen verbindet alle Kulturen."
+      ],
+      "stats": [
+        {
+          "value": "1999",
+          "label": "Gründungsjahr"
+        },
+        {
+          "value": "5",
+          "label": "Teammitglieder"
+        },
+        {
+          "value": "1",
+          "label": "Standort München"
+        }
+      ],
+      "features": [
+        {
+          "title": "Authentische Familienrezepte",
+          "description": "Drei Generationen italienische Kochkunst direkt aus der Amalfiküste"
+        },
+        {
+          "title": "Frische regionale Zutaten",
+          "description": "Täglich ausgewählte Qualitätsprodukte für höchsten Geschmack"
+        },
+        {
+          "title": "Familiäre Atmosphäre",
+          "description": "Gemütliches Ambiente, in dem sich jeder Gast willkommen fühlt"
+        },
+        {
+          "title": "Mehrsprachiger Service",
+          "description": "Persönliche Betreuung auf Deutsch, Italienisch und Englisch"
+        }
+      ]
+    },
+    "cta": {
+      "text": "Jetzt reservieren",
+      "action": "book-now"
+    }
+  },
+  {
+    "sectionId": "team",
+    "type": "team",
+    "headline": "Die Seele unserer italienischen Küche",
+    "subheadline": "Lernen Sie die Menschen kennen, die mit Leidenschaft und Familientradition jeden Tag für Ihr perfektes Geschmackserlebnis sorgen",
+    "content": {
+      "items": [
+        {
+          "title": "Giuseppe Rossi",
+          "description": "Küchenchef & Inhaber mit 25 Jahren Erfahrung bringt authentische italienische Familienrezepte und frischeste Zutaten direkt aus der Heimat auf Ihren Teller.",
+          "icon": "👨‍🍳"
+        },
+        {
+          "title": "Maria Rossi",
+          "description": "Service Manager sorgt für perfekten Service und gemütliche Atmosphäre. Mit fließenden Sprachkenntnissen in Deutsch, Italienisch und Englisch betreut sie jeden Gast persönlich.",
+          "icon": "👩‍💼"
+        }
+      ]
+    },
+    "cta": {
+      "text": "Team kennenlernen",
+      "action": "contact"
+    }
+  },
+  {
+    "sectionId": "trust",
+    "type": "trust",
+    "headline": "Tradition seit drei Generationen",
+    "subheadline": "Über zwei Jahrzehnte authentische italienische Küche in München – mit der Erfahrung und Leidenschaft einer echten italienischen Familie.",
+    "content": {
+      "items": [
+        {
+          "title": "21",
+          "description": "Jahre Bella Vista Restaurant in München seit 2004"
+        },
+        {
+          "title": "25",
+          "description": "Jahre Erfahrung unseres Küchenchefs Giuseppe Rossi in der authentischen italienischen Küche"
+        }
+      ]
+    },
+    "cta": {
+      "text": "Jetzt reservieren",
+      "action": "book-now"
+    }
+  },
+  {
+    "sectionId": "contact",
+    "type": "contact",
+    "headline": "Ihr Tisch wartet auf Sie",
+    "subheadline": "Reservieren Sie jetzt Ihren Platz für authentische italienische Momente bei Familie Rossi",
+    "content": {
+      "paragraphs": [
+        "Wir freuen uns darauf, Sie in unserem gemütlichen Restaurant begrüßen zu dürfen. Ob romantisches Dinner, Familienfeier oder spontaner Besuch - bei uns fühlen Sie sich wie zu Hause.",
+        "Unser mehrsprachiges Team (Deutsch, Italienisch, Englisch) berät Sie gerne persönlich und sorgt für einen unvergesslichen Abend mit echter italienischer Gastfreundschaft."
+      ],
+      "items": [
+        {
+          "title": "Reservierung & Kontakt",
+          "description": "Kontaktformular mit Feldern für Name, E-Mail, Telefon (optional), Nachricht, Reservierungsdatum und Personenanzahl für eine schnelle und unkomplizierte Tischreservierung"
+        },
+        {
+          "title": "Pizzaplatz 5, 80331 München",
+          "description": "Mitten im Herzen Münchens gelegen - leicht erreichbar mit öffentlichen Verkehrsmitteln und ausreichend Parkmöglichkeiten in der Nähe"
+        },
+        {
+          "title": "+49 89 87654321",
+          "description": "Rufen Sie uns direkt an für spontane Reservierungen oder besondere Wünsche. Wir sind gerne für Sie da und beraten Sie persönlich"
+        },
+        {
+          "title": "info@bellavista-restaurant.de",
+          "description": "Schreiben Sie uns eine E-Mail für Anfragen, Reservierungen oder Feedback. Wir antworten garantiert innerhalb von 24 Stunden"
+        },
+        {
+          "title": "Folgen Sie uns",
+          "description": "Bleiben Sie auf Facebook und Instagram über unsere täglichen Spezialitäten informiert oder kontaktieren Sie uns direkt über WhatsApp"
+        },
+        {
+          "title": "Unser Standort",
+          "description": "Interaktive Karte mit unserem Restaurant-Standort am Pizzaplatz 5 für eine einfache Anfahrt zu Ihrem italienischen Genusserlebnis"
+        }
+      ]
+    },
+    "cta": {
+      "text": "Jetzt reservieren",
+      "action": "book-now"
+    }
+  }
+]

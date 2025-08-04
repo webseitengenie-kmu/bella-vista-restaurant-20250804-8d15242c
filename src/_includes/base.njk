@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bella Vista Restaurant - Gastronomie</title>
+  <meta name="description" content="Traditionelle italienische Familienrezepte mit über 20 Jahren Erfahrung und ausschließlich frischen, regionalen Zutaten in authentisch gemütlicher Atmosphäre">
+  <meta name="keywords" content="Bella Vista Restaurant, Gastronomie, Authentische Geschichten über Familienrezepte und Tradition, Hochwertige Food-Fotografie der Signature-Gerichte, Behind-the-scenes Content aus der Küche">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="/assets/js/main.js" defer></script>
+</head>
+<body class="bg-background text-text font-secondary min-h-screen">
+  <header class="w-full bg-white/90 backdrop-blur-lg sticky top-0 z-30 shadow-md">
+    <nav class="container mx-auto flex items-center justify-between px-4 py-3">
+      <a href="#hero" class="text-primary font-primary text-xl font-bold focus:outline-none focus:ring-2 focus:ring-primary" data-editable="nav-logo" data-type="text" onclick="document.getElementById('hero').scrollIntoView({behavior:'smooth'});return false;">Bella Vista</a>
+      <ul class="flex space-x-4 text-base">
+        <li><a href="#services" class="hover:text-primary transition-colors focus:outline-none focus:ring-2 focus:ring-primary" onclick="document.getElementById('services').scrollIntoView({behavior:'smooth'});return false;" data-editable="nav-services" data-type="text">Genussmomente</a></li>
+        <li><a href="#about" class="hover:text-primary transition-colors focus:outline-none focus:ring-2 focus:ring-primary" onclick="document.getElementById('about').scrollIntoView({behavior:'smooth'});return false;" data-editable="nav-about" data-type="text">Über uns</a></li>
+        <li><a href="#team" class="hover:text-primary transition-colors focus:outline-none focus:ring-2 focus:ring-primary" onclick="document.getElementById('team').scrollIntoView({behavior:'smooth'});return false;" data-editable="nav-team" data-type="text">Team</a></li>
+        <li><a href="#trust" class="hover:text-primary transition-colors focus:outline-none focus:ring-2 focus:ring-primary" onclick="document.getElementById('trust').scrollIntoView({behavior:'smooth'});return false;" data-editable="nav-trust" data-type="text">Tradition</a></li>
+        <li><a href="#contact" class="hover:text-primary transition-colors focus:outline-none focus:ring-2 focus:ring-primary" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'});return false;" data-editable="nav-contact" data-type="text">Reservieren</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="main-content" tabindex="-1">
+    {{ content | safe }}
+  </main>
+  <footer class="bg-neutral text-accent py-8 mt-16 border-t border-accent/20">
+    <div class="container mx-auto flex flex-col md:flex-row justify-between items-center px-4 text-sm gap-2">
+      <div class="mb-2 md:mb-0" data-editable="footer-copyright" data-type="text">&copy; 2025 Bella Vista Restaurant</div>
+      <div class="flex space-x-4">
+        <a href="/impressum" class="underline hover:text-primary focus:outline-none focus:ring-2 focus:ring-primary" data-editable="footer-impressum" data-type="text">Impressum</a>
+        <a href="/datenschutz" class="underline hover:text-primary focus:outline-none focus:ring-2 focus:ring-primary" data-editable="footer-datenschutz" data-type="text">Datenschutz</a>
+      </div>
+    </div>
+  </footer>
+  <script>
+    // Editor Support: Add visually hidden focusable skip-link
+    if (window.location.search.indexOf('webseitengenie_editor=true') > -1) {
+      var skip = document.createElement('a');
+      skip.href = '#main-content';
+      skip.className = 'sr-only focus:not-sr-only absolute top-2 left-2 bg-primary text-white px-4 py-2 rounded z-50';
+      skip.innerText = 'Zum Inhalt springen';
+      document.body.prepend(skip);
+    }
+  </script>
+
+<!-- Webseitengenie Editor Support -->
+<script>
+(function() {
+  // Only activate in editor mode
+  if (!window.location.search.includes('webseitengenie_editor=true')) return;
+  
+  // Store original content
+  const originalContent = new Map();
+  
+  // Listen for editor messages
+  window.addEventListener('message', function(event) {
+    if (event.source !== window.parent) return;
+    
+    const { type, elementId, content } = event.data;
+    
+    if (type === 'update-preview') {
+      const element = document.querySelector('[data-editable="' + elementId + '"]');
+      if (!element) return;
+      
+      // Store original
+      if (!originalContent.has(elementId)) {
+        originalContent.set(elementId, element.innerHTML);
+      }
+      
+      // Update with animation
+      element.style.transition = 'all 0.3s ease';
+      element.innerHTML = content;
+      element.style.backgroundColor = '#fef3c7';
+      
+      setTimeout(() => {
+        element.style.backgroundColor = '';
+      }, 300);
+    }
+    
+    if (type === 'restore-original') {
+      originalContent.forEach((content, id) => {
+        const el = document.querySelector('[data-editable="' + id + '"]');
+        if (el) el.innerHTML = content;
+      });
+    }
+  });
+  
+  // Signal ready
+  window.parent.postMessage({ type: 'preview-ready' }, '*');
+})();
+</script>
+</body>
+</html>
